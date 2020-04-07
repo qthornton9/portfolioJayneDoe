@@ -1,0 +1,153 @@
+* {
+    /* outline: 1px dotted red; */
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start of header section */
+h1, h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+h1 {
+    width: 410px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+    margin-left: 151px;
+    font-size: 14pt;
+    width: 324px;
+}
+/* end of header section */
+
+main {
+    background: linear-gradient(90deg, rgba(40,22,28,1) 0%, rgba(111,89,100,1) 50%, rgba(40,22,28,1) 100%);
+}
+
+/* start of about section */
+img {
+    border: 5px solid grey;
+    display: inline-block;
+    margin: 20px;
+    width: 440px;
+}
+
+#about {
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(219,204,218,1) 100%);
+    display: inline-block;
+    margin: 20px;
+    margin-left: 0px;
+    width: 465px;
+    height: 293px;
+}
+
+h3 {
+    background: linear-gradient(180deg, rgba(180,180,183,1) 0%, rgba(137,136,149,1) 50%, rgba(180,180,183,1) 100%);
+    font-size: 15pt;
+    color: white;
+    padding: 10px;
+}
+
+#about h3, #about p, #about a {
+    display: inline-block;
+    padding: 10px;
+    width: 465px;
+}
+
+#about a {
+    color: black;
+}
+/* end of about section */
+
+/* start of box section */
+
+.box, .box h3, .box h4, .box img, .box p, .box .icon, .midBox, .midBox h3, .midBox h4, .midBox img, .midBox p, .midBox .icon {
+    width: 293px;
+    display: inline-block;
+}
+
+.box {
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%,rgba(219,204,218,1) 100%);
+    margin: 0px 20px 20px 20px;
+}
+
+.midBox {
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%,rgba(219,204,218,1) 100%);
+    margin: 0px 0px 20px 0px;
+}
+
+.box img, .midBox img{
+    margin: 0;
+    border: none;
+}
+
+.box p, .midBox p{
+    padding: 10px;
+    text-align: justify;
+    height: 160px;
+    font-size: 11pt;
+}
+
+h4 {
+    background: linear-gradient(180deg, rgba(180,180,183,1) 0%, rgba(137,136,149,1) 50%, rgba(180,180,183,1) 100%);
+    color: white;
+    padding: 10px;
+}
+
+.box .icon img, .midBox .icon img {
+    width: 55px;
+    padding: 5px;
+}
+
+.box a, .midBox a {
+    display: block;
+    font-size: 10pt;
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(64, 125, 97);
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px 0px darkgrey;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.box a {
+    width: 72px;
+}
+
+.midBox a {
+    width: 108px;
+}
+
+/* end of box section */
+
+/* start of footer section */
+
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 20px;
+    border: none;
+    margin: 0px;
+}
+
+footer a {
+    margin: 5px;
+}
+
+.connects {
+    display: inline-block;
+    text-align: center;
+}
+
+/* end of footer section */
